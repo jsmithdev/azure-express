@@ -1,0 +1,29 @@
+{
+  "name": "azure-express",
+  "version": "0.0.1",
+  "description": "A proxy for Azure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmithdev/azure-express.git"
+  },
+  "author": "Jamie Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsmithdev/azure-express/issues"
+  },
+  "homepage": "https://github.com/jsmithdev/azure-express#readme",
+  "dependencies": {
+    "@azure/storage-blob": "^12.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
